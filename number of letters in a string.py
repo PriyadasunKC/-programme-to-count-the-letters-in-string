@@ -2,7 +2,7 @@ name = input("Enter name : ")
 count = 0
 
 for letter in name:
-    # we can check the spaces if found we can pass that iteration becore counting using "continue" keyword using belo code
+    # we can check the spaces if found we can pass that iteration becore counting using "continue" keyword using below code
     if(letter == " "):
         continue
     count += 1
